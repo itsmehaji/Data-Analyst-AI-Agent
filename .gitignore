@@ -26,9 +26,8 @@ wheels/
 .installed.cfg
 *.egg
 
-# Database (but allow sample_data.db)
+# Database
 *.db
-!sample_data.db
 *.sqlite
 *.sqlite3
 
