@@ -1,0 +1,28 @@
+# Git Setup and Push Script
+# Run these commands one by one in PowerShell
+
+# 1. Initialize git repository
+git init
+
+# 2. Add all files (respects .gitignore)
+git add .
+
+# 3. Create first commit
+git commit -m "Initial commit: Data Analyst AI Agent for Google AI Agents Capstone 2025"
+
+# 4. Set main branch
+git branch -M main
+
+# 5. Add your GitHub repository as remote
+# REPLACE YOUR_USERNAME with your actual GitHub username
+git remote add origin https://github.com/YOUR_USERNAME/google-ai-agent-capstone.git
+
+# 6. Push to GitHub
+git push -u origin main
+
+# ========================================
+# AFTER PUSHING, verify:
+# 1. Go to your GitHub repo URL
+# 2. Check that .env is NOT visible (should be ignored)
+# 3. Verify README.md displays correctly
+# 4. Copy the repo URL for Kaggle submission
